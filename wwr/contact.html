@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah Bilauni | WDD 130 | WWR |Contact Information. </title>
+    <meta name="description" content="White water Rafting project contact us page.">
+    <meta name="author" content="Sarah Bilauni">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/wwr-logo.png" alt="Rafting Company Logo" >
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+    <div class="contact-container">
+        <div class="left-panel">
+            <h2>Send Us a Message</h2>
+
+            <p>Phone: 243-876-5678</p>
+            <p>Email: <a href="mailto:">sbilauni@byupathway.edu</a></p>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22468.98570565506!2d39.65826463635096!3d-4.0925594551771995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1840149f755f154d%3A0xa31c0e64a56e813!2sShelly%20Beach!5e0!3m2!1sen!2ske!4v1749333296201!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <section>
+                <figure>
+                    <img src="images/employee.jpeg" alt="Employee">
+                    <figcaption>Alice – Office Coordinator, ensuring smooth bookings and guest experiences</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/happy-employee.jpeg" alt="Employee">
+                    <figcaption>Rachel – Guest Services Manager, passionate about outdoor adventures</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/worker.jpeg" alt="Employee">
+                    <figcaption>David – Logistics Supervisor keeping our rafting operations running strong</figcaption>
+                </figure>
+            </section>
+        </div>
+
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail">
+            </fieldset>
+
+            <fieldset>
+                <legend>Comment</legend>
+                <label>
+                    <input type="radio" name="Messagepurpose" value="general-inquiry">
+                    General Inquiry
+                </label><br>
+                <label>
+                    <input type="radio" name="Messagepurpose" value="reservation-purpose">
+                    Reservation Question
+                </label><br>
+                <label>
+                    <input type="radio" name="Messagepurpose" value="website-suggestion">
+                    Website Suggestion
+                </label>
+                <label for="Comment">Your Comment:</label>
+                <textarea id="Comment" name="User-comment" rows="5" cols="40" required></textarea><br><br>
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Please subscribe me to the monthly newsletter.</label>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Rafting Company | Sarah Bilauni |
+            <a href="https://app.moqups.com/E3v2EXJIwFF1gyvH7UOnYl49I9f4FTaJ/view/page/ad64222d5">
+                Contact us wireframe
+                </a>
+        </p>
+
+        <nav class="socialmedia">
+            <a href="https://instagram.com">
+                <img src="images/Instagram-icon.webp" alt="Instagram-icon">
+            </a>
+            <a href="https://facebook.com">
+                <img src="images/facebook-icon.webp" alt="facebook-icon">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/Twitter-icon.webp" alt="Twitter-icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
