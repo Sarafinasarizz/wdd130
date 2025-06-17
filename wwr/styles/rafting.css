@@ -250,7 +250,6 @@ button{
 }    
 
 footer :link {
-    color: var(--accent2-color);
     font-weight: bold;
     text-decoration: none;
 }
